@@ -1,0 +1,1 @@
+# Fault_Detection_And_Diagnostics_Of_ElectroMechanical_Devices
