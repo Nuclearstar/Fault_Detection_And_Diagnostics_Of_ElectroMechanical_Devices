@@ -26,7 +26,7 @@
   "homepage": "https://github.com/xcatliu/grubbs#readme",
   "devDependencies": {
     "ecstatic": ">=2.0.0",    
-    "eslint": "^2.4.0",
+    "eslint": "^4.18.2",
     "eslint-config-airbnb": "^6.2.0",
     "webpack": "^1.12.14"
   },
