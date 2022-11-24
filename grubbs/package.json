@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/xcatliu/grubbs#readme",
   "devDependencies": {
-    "eslint": "^4.18.2",
+    "eslint": "^8.28.0",
     "eslint-config-airbnb": "^6.2.0",
     "mocha": "^10.1.0"
   },
