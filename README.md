@@ -4,7 +4,7 @@
 
 Fault Detection & Diagnostics of ElectroMechanical Devices is a project based on Sinfonia conveyor belts used in airports. Outliers detection, classiﬁcation & prediction were the main tasks involved.
 
-Various statistical tests like Grubbs test, Modified Thompson Tau test were used to find the outliers in the given datasets using Python. Finding outliers separately in the different features of the dataset itself is fault detection and classification. Further a prediction was made using algorithms like SVM, Decision trees to know the next series of data whether faulty or not. If faulty over a run was found then suitable diagnosis was applied to make the machine run smooth.
+Combination of various statistical tests were used to find the outliers in the given datasets using Python. Mahalanobis distance and Grubbs test are used together in finding outliers within the different features of the dataset acting as fault detection and classification. Further a prediction was made using algorithms like SVM, Decision trees to know the next series of data whether faulty or not. If faulty over a run was found then suitable diagnosis was applied to make the machine run smooth.
 
 ## Installation Dependencies:
 
@@ -12,10 +12,12 @@ Various statistical tests like Grubbs test, Modified Thompson Tau test were used
 - pandas
 - numpy
 - scipy
+- scikit-learn
 
 ## Implementation
 
-outlierDetect.ipynb file has the detailed solution for finding outliers which helps to detects any faults occuring in conveyor belts.
+- outlierDetect.ipynb file has the detailed solution for finding outliers which helps in detecting any faults occuring in conveyor belts. Each of the methodology used is well explained, along with their pros & cons.
+- svmOutlierDetectionPrediction.ipynb file has a detailed solution on how One-class SVM is used for outlier detection. Further it also predicts the outliers.
 
 ## How to run?
 
